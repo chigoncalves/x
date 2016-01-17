@@ -1,0 +1,36 @@
+article, aside, audio, canvas, datalist, details, figcaption,
+figure, footer, header, hgroup, menu, nav, section, video {
+  display: block;
+}
+
+time {
+  font-style: italic;
+}
+
+.clear-float:before,
+.clear-float:after {
+  content: " ";
+  display: table;
+}
+
+.clear-float:after {
+  clear: both;
+}
+
+.input-valid {
+  -webkit-box-shadow: 0 0 4px 2px rgba(43, 194, 106, 0.7);
+  -moz-box-shadow: 0 0 4px 2px rgba(43, 194, 106, 0.7);
+  box-shadow: 0 0 4px 2px rgba(43, 194, 106, 0.7);
+}
+
+.input-invalid {
+  -webkit-box-shadow: 0 0 4px 2px rgba(232, 76, 61, 0.7);
+  -moz-box-shadow: 0 0 4px 2px rgba(232, 76, 61, 0.7);
+   box-shadow: 0 0 4px 2px rgba(232, 76, 61, 0.7);
+}
+
+.input-normal {
+  -webkit-box-shadow: 0 0 4px 2px rgba(39, 111, 161, 0.7);
+  -moz-box-shadow: 0 0 4px 2px rgba(39, 111, 161, 0.7);
+  box-shadow: 0 0 4px 2px rgba(39, 111, 161, 0.7);
+}
