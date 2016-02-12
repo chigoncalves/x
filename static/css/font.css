@@ -1,46 +1,128 @@
-/**
- * Merriweather family.
- */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Redacted Script';
   font-style: normal;
   font-weight: normal;
-  src: url('font/serif/merriweather/merriweather-regular.otf') format('otf');
+  src: url('font/misc/redacted-script/redacted-script-r.otf') format('otf');
 }
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Redacted Script Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('font/misc/redacted-script/redacted-script-l.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Redacted Script';
+  font-style: normal;
+  font-weight: bold;
+  src: url('font/misc/redacted-script/redacted-script-b.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: url('font/mono/source-code-pro/source-code-pro-r.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
   font-style: italic;
   font-weight: normal;
-  src: url('font/serif/merriweather/merriweather-italic.otf') format('otf');
+  src: url('font/mono/source-code-pro/source-code-pro-i.otf') format('otf');
 }
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: bold;
-  src: url('font/serif/merriweather/merriweather-bold.otf') format('otf');
+  src: url('font/mono/source-code-pro/source-code-pro-b.otf') format('otf');
 }
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Source Code Pro';
   font-style: italic;
   font-weight: bold;
-  src: url('font/serif/merriweather/merriweather-bold-italic.otf') format('otf');
+  src: url('font/mono/source-code-pro/source-code-pro-z.otf') format('otf');
 }
 
-/**
- * Tryst family.
- */
 @font-face {
-  font-family: 'Tryst';
+  font-family: 'Merriweather Sans';
   font-style: normal;
-  font-weight: regular;
-  src: url('font/serif/tryst/tryst-regular.otf') format('otf');
+  font-weight: normal;
+  src: url('font/sans/merriweather-sans/merriweather-sans-r.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: url('font/sans/merriweather-sans/merriweather-sans-i.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: url('font/sans/merriweather-sans/merriweather-sans-b.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: url('font/sans/merriweather-sans/merriweather-sans-z.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: normal;
+  src: url('font/serif/cormorant/cormorant-r.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: italic;
+  font-weight: normal;
+  src: url('font/serif/cormorant/cormorant-i.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: bold;
+  src: url('font/serif/cormorant/cormorant-b.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: italic;
+  font-weight: bold;
+  src: url('font/serif/cormorant/cormorant-z.otf') format('otf');
+}
+
+output,
+pre,
+kbd,
+tt {
+  font-family: %MONO-FONT%;
 }
 
 body {
-  font-family: 'Merriweather', Georgia, 'Hoefler Text', 'Palatino Linotype', 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: %PRIMARY-FONT%;
+}
+
+.prototype-header {
+  font-family: 'Redacted Script';
+  font-weight: bold;
+}
+
+.prototype-text-a {
+  font-family: 'Redacted Script';
+}
+
+.prototype-text-b {
+  font-family: 'Redacted Script Light';
 }

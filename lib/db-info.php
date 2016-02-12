@@ -3,9 +3,9 @@ if (!defined ("APP_STARTED")) {
   return;
 }
 
-$db = array (
+$db = [
   'host' => 'localhost',
   'usr' => 'db-consumer',
   'passwd' => 'AbCd3F!',
-);
+];
 ?>
