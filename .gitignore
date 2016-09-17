@@ -1,5 +1,6 @@
 *~
-node_modules/
 docs/
+gen/
+node_modules/
 notes/
 *.min.css

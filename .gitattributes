@@ -1,0 +1,6 @@
+# -*- conf -*-
+
+*.otf    binary
+*.ttf    binary
+*.woff   binary
+*.eof    binary

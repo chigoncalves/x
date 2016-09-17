@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 	files: [{
 	  expand: true,
 	  src: ['css/*.css', '!*.min.css'],
-	  dest: 'bar',
+	  dest: 'gen',
 	  ext: '.min.css'
 	}]
       }
@@ -17,13 +17,13 @@ module.exports = function (grunt) {
 	  formatters: ['compact'],
 	  csslintrc: '.csslintrc',
 	},
-	src: ['*.css']
+	src: ['css/*.css']
       }
     },
     concat: {
       dist: {
-      src: ['*.css'],
-      dest: 'cache/styles.concat.css',
+      src: ['gen/css/*.css'],
+      dest: 'public/res/css/styles.min.css',
     },
     }
 
