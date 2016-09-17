@@ -1,0 +1,10 @@
+// -*- js -*-
+
+{
+  "qualified-headings": true,
+  "ids": false,
+  "adjoining-classes": false,
+  "bulletproof-font-face": true,
+  "box-model": false,
+  "outline-none": false
+}
